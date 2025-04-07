@@ -1,0 +1,16 @@
+{
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"files.eol": "\n",
+	"[typescript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+		"editor.formatOnSave": true
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true
+	},
+	"eslint.run": "onType",
+	"eslint.format.enable": true,
+	"explorer.excludeGitIgnore": false,
+	"typescript.preferences.importModuleSpecifier": "non-relative"
+}

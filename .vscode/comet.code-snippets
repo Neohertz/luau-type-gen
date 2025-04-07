@@ -1,0 +1,23 @@
+{
+    "Comet System": {
+        "body": [
+            "//!optimize 2",
+            "",
+            "import { OnInit, OnEnd, System } from \"@rbxts/comet\";",
+            "",
+            "export class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}System implements OnInit, OnEnd {",
+            "\tonInit(): void {",
+            "\t\tprint(\"${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g} system initialized!\");",
+            "\t}",
+            "",
+            "\tonEnd(): void {",
+            "\t\tprint(\"${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g} system destroyed!\");",
+            "\t}",
+            "}",
+            "",
+        ],
+        "description": "Create a System",
+        "prefix": "system",
+        "scope": "typescript",
+    },
+}

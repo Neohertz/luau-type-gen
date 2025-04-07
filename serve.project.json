@@ -1,0 +1,13 @@
+{
+	"name": "Luau Type Generator",
+	"globIgnorePaths": ["**/package.json", "**/tsconfig.json"],
+	"tree": {
+		"$className": "DataModel",
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"LuauTypeGen": {
+				"$path": "./default.project.json"
+			}
+		}
+	}
+}
