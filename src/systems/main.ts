@@ -13,7 +13,7 @@ export class MainSystem implements OnInit {
 	constructor() {
 		this.button = this.gui.createButton(
 			"Generate",
-			"Generate the types for the selected instance instance.",
+			"Generate the types for the selected instance.",
 			"rbxassetid://109597267415448",
 			false,
 			true
